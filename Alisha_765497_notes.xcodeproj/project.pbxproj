@@ -14,6 +14,7 @@
 		9BCA8CCC2374C6C200EFDB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA8CCB2374C6C200EFDB8E /* Assets.xcassets */; };
 		9BCA8CCF2374C6C200EFDB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA8CCD2374C6C200EFDB8E /* LaunchScreen.storyboard */; };
 		9BCA8CD72374C79A00EFDB8E /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA8CD62374C79A00EFDB8E /* NotesTableViewController.swift */; };
+		9BCA8CDA2374CFC100EFDB8E /* folder-icon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA8CD92374CFC100EFDB8E /* folder-icon (1).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9BCA8CCE2374C6C200EFDB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BCA8CD02374C6C200EFDB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BCA8CD62374C79A00EFDB8E /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotesTableViewController.swift; path = ../../NotesTableViewController.swift; sourceTree = "<group>"; };
+		9BCA8CD92374CFC100EFDB8E /* folder-icon (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder-icon (1).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 		9BCA8CC12374C6C200EFDB8E /* Alisha_765497_notes */ = {
 			isa = PBXGroup;
 			children = (
+				9BCA8CD82374CED900EFDB8E /* Images */,
+				9BCA8CD92374CFC100EFDB8E /* folder-icon (1).png */,
 				9BCA8CC22374C6C200EFDB8E /* AppDelegate.swift */,
 				9BCA8CC42374C6C200EFDB8E /* SceneDelegate.swift */,
 				9BCA8CC62374C6C200EFDB8E /* ViewController.swift */,
@@ -68,6 +72,13 @@
 				9BCA8CD02374C6C200EFDB8E /* Info.plist */,
 			);
 			path = Alisha_765497_notes;
+			sourceTree = "<group>";
+		};
+		9BCA8CD82374CED900EFDB8E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 			files = (
 				9BCA8CCF2374C6C200EFDB8E /* LaunchScreen.storyboard in Resources */,
 				9BCA8CCC2374C6C200EFDB8E /* Assets.xcassets in Resources */,
+				9BCA8CDA2374CFC100EFDB8E /* folder-icon (1).png in Resources */,
 				9BCA8CCA2374C6C200EFDB8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
